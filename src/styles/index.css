@@ -94,7 +94,8 @@ body {
 .header-hero {
   font-size: 2rem;
   padding: 3.2rem;
-  margin-bottom: 1.6rem;
+
+  background-color: #e6f0f1;
   display: grid;
   grid-template-columns: auto 1fr;
   align-items: center;
