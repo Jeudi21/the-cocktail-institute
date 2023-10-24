@@ -3,6 +3,7 @@ import Header from "../features/LandingPage/Header";
 import PartneredWith from "../features/LandingPage/PartneredWith/PartneredWith";
 import About from "../features/LandingPage/About/About";
 import Courses from "../features/LandingPage/Courses/Courses";
+import Results from "../features/LandingPage/Results/Results";
 
 function LandingPage() {
   return (
@@ -13,6 +14,7 @@ function LandingPage() {
         <PartneredWith />
         <About />
         <Courses />
+        <Results />
       </main>
     </>
   );

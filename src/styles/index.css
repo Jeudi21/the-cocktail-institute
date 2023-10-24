@@ -438,7 +438,48 @@ body {
   box-shadow: -15px 15px 0 #006d77;
 }
 
-.--flex {
+/**************************/
+/*RESULTS SECTION */
+/**************************/
+.section-results {
+  color: #004c53;
+  padding: 8rem 0;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3.2rem;
+}
+
+.card {
+  background-color: #e6f0f1;
+  border-radius: 5% 5% 0 0;
+  overflow: hidden;
+  padding-bottom: 4.8rem;
+}
+
+.card-text-box {
+  padding: 3.2rem;
+}
+
+.card-img {
+  width: 100%;
+}
+
+.card-heading {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 3.2rem;
+}
+
+.card-text {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.card- .--flex {
   display: flex;
   flex-direction: column;
   gap: 8rem;
