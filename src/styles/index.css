@@ -366,6 +366,60 @@ body {
   align-items: center;
 }
 
+.course-img-box {
+  position: relative;
+  text-align: center;
+}
+
+.course-img-pricing-mixology,
+.course-img-pricing-coffee,
+.course-img-pricing-flair {
+  background-size: cover;
+  box-shadow: -15px 15px 0 #006d77;
+  border-radius: 5%;
+}
+
+.course-img-pricing-mixology {
+  background-image: linear-gradient(#cd7d4446, #cd7d44),
+    url("img/courses/mixology.jpg");
+}
+
+.course-img-pricing-coffee {
+  background-image: linear-gradient(#cd7d4446, #cd7d44),
+    url("img/courses/coffee.jpg");
+}
+
+.course-img-pricing-flair {
+  background-image: linear-gradient(#cd7d4446, #cd7d44),
+    url("img/courses/flair.jpg");
+}
+
+.pricing-container {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+  transform: translateX(-50%);
+  color: #e6f0f1;
+}
+
+.pricing-heading {
+  font-size: 4rem;
+  margin-bottom: 4.8rem;
+}
+
+.pricing-text {
+  font-size: 3.6rem;
+  font-weight: 500;
+  margin-bottom: 4.8rem;
+}
+
+.pricing-link,
+.pricing-link:link,
+.pricing-link:visited {
+  display: inline-block;
+}
+
 .course-title {
   font-size: 2.4rem;
   font-weight: 700;
@@ -396,4 +450,8 @@ body {
 
 .--margin-bottom-sm {
   margin-bottom: 3.2rem;
+}
+
+.--opacity-zero {
+  opacity: 0;
 }

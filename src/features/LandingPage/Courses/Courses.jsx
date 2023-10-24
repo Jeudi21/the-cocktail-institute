@@ -8,9 +8,7 @@ function Courses() {
         {coursesDetails.map((course, index) => (
           <CourseItem
             key={index}
-            img={course.img}
-            text={course.text}
-            title={course.title}
+            course={course}
             order={index % 2 === 0 ? "img-text" : "text-img"}
           />
         ))}
