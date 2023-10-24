@@ -13,7 +13,7 @@ function Hero() {
               world.
             </p>
 
-            <a className="btn btn--primary margin-right-sm">
+            <a className="btn btn--primary --margin-right-sm">
               Start your journey
             </a>
             <a className="btn">Learn More</a>

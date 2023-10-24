@@ -79,6 +79,9 @@ body {
   box-shadow: 0 0 0 0.8rem #006d7795;
 }
 
+/**************************/
+/*HERO SECTION */
+/**************************/
 .section-hero {
   background-color: #e6f0f1;
   background-size: cover;
@@ -94,7 +97,6 @@ body {
 .header-hero {
   font-size: 2rem;
   padding: 3.2rem;
-
   background-color: #e6f0f1;
   display: grid;
   grid-template-columns: auto 1fr;
@@ -172,7 +174,7 @@ body {
   font-size: 2rem;
   border: none;
   padding: 1.6rem 3.2rem;
-  border-radius: 10px;
+  border-radius: 100px;
   background-color: #b3d3d6;
   color: #004c53;
   font-weight: 600;
@@ -204,20 +206,93 @@ body {
 .hero-img {
   width: 85%;
   justify-self: end;
+  border-radius: 10%;
 }
 
-.test {
+/**************************/
+/*PARTNERED WITH SECTION */
+/**************************/
+
+.section-partnered {
+  padding-top: 3.2rem;
+}
+
+.partnered-heading {
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: 700;
+  color: #006d77;
+}
+
+.container-logos {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+}
+
+.container-logos::before,
+.container-logos::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 10rem;
+  height: 100%;
+  z-index: 999;
+}
+
+.container-logos::before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), #fff);
+}
+
+.container-logos::after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), #fff);
+}
+
+.container-logos:hover .logos-slider {
+  animation-play-state: paused;
+}
+
+.logos-slider {
+  display: inline-block;
+  animation: 20s slide infinite linear;
+}
+
+.logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3.2rem;
+}
+
+.partnered-with-img {
+  width: 20rem;
+  filter: grayscale(1);
+  opacity: 70%;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+/**************************/
+/*About SECTION */
+/**************************/
+
+.section-about {
   width: 120rem;
   height: 90rem;
   background-color: aqua;
 }
 
-.container--shrink {
-  max-width: 90rem;
-  text-align: center;
-  line-height: 1.2;
-}
-
-.margin-right-sm {
+.--margin-right-sm {
   margin-right: 3.2rem;
 }
