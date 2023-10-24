@@ -1,5 +1,5 @@
 import ResultCard from "./ResultCard";
-import { cardDetails } from "./card-details";
+import { cardDetails } from "./cardDetails";
 
 function Results() {
   return (

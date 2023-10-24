@@ -4,6 +4,7 @@ import PartneredWith from "../features/LandingPage/PartneredWith/PartneredWith";
 import About from "../features/LandingPage/About/About";
 import Courses from "../features/LandingPage/Courses/Courses";
 import Results from "../features/LandingPage/Results/Results";
+import Testimonials from "../features/LandingPage/Testimonials/Testimonials";
 
 function LandingPage() {
   return (
@@ -15,6 +16,7 @@ function LandingPage() {
         <About />
         <Courses />
         <Results />
+        <Testimonials />
       </main>
     </>
   );

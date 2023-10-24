@@ -1,5 +1,5 @@
 import CourseItem from "./CourseItem";
-import { coursesDetails } from "./courses-details";
+import { coursesDetails } from "./coursesDetails";
 
 function Courses() {
   return (

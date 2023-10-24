@@ -1,5 +1,5 @@
 import Step from "./Step";
-import { stepDetails } from "./steps-details";
+import { stepDetails } from "./stepsDetails";
 
 function About() {
   return (

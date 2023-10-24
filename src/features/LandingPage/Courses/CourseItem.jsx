@@ -3,7 +3,7 @@ import { useState } from "react";
 function CourseItem({ course, order }) {
   const [hover, setHover] = useState(false);
   const { img, text, type, title, price, level } = course;
-  console.log(hover);
+
   if (order === "img-text")
     return (
       <div className="course-container">

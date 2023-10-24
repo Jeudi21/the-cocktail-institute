@@ -1,4 +1,4 @@
-import { logosDetails } from "./logos-details";
+import { logosDetails } from "./logosDetails";
 
 function PartneredWith() {
   return (
