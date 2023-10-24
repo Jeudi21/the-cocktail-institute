@@ -288,11 +288,79 @@ body {
 /**************************/
 
 .section-about {
-  width: 120rem;
-  height: 90rem;
-  background-color: aqua;
+  background-color: #faf2ec;
+  color: #004c53;
 }
 
+.about-heading-box {
+  /* text-align: center; */
+}
+
+.heading-secondary {
+  font-size: 5.2rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 4.8rem;
+}
+
+.about-text {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.steps-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 3.2rem;
+}
+
+.step-card {
+  padding: 4.8rem 4.8rem 4.8rem 0;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.step-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2.4rem;
+}
+
+.step-number {
+  font-size: 2rem;
+}
+
+.icon-pink,
+.icon-blue,
+.icon-green {
+  display: flex;
+  padding: 0.8rem;
+  border-radius: 20%;
+}
+
+.icon-pink {
+  background-color: #f7e2e2;
+}
+
+.icon-blue {
+  background-color: #d6ebf5;
+}
+
+.icon-green {
+  background-color: #b4e6c2;
+}
+
+.test {
+  height: 100vh;
+  background-color: #cce2e4;
+}
 .--margin-right-sm {
   margin-right: 3.2rem;
+}
+
+.--margin-bottom-sm {
+  margin-bottom: 3.2rem;
 }
