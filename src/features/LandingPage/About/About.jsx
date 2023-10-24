@@ -3,7 +3,7 @@ import { stepDetails } from "./steps-details";
 
 function About() {
   return (
-    <div className="section-about">
+    <section className="section-about">
       <div className="container">
         <div className="about-heading-box">
           <h2 className="heading-secondary">
@@ -33,7 +33,7 @@ function About() {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
