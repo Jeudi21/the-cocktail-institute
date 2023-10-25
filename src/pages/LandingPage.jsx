@@ -5,6 +5,7 @@ import About from "../features/LandingPage/About/About";
 import Courses from "../features/LandingPage/Courses/Courses";
 import Results from "../features/LandingPage/Results/Results";
 import Testimonials from "../features/LandingPage/Testimonials/Testimonials";
+import CTA from "../features/LandingPage/CTA";
 
 function LandingPage() {
   return (
@@ -17,6 +18,7 @@ function LandingPage() {
         <Courses />
         <Results />
         <Testimonials />
+        <CTA />
       </main>
     </>
   );

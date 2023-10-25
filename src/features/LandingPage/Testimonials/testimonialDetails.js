@@ -19,6 +19,6 @@ export const testimonialDetails = [
   {
     img: "img/testimonials/Laura.jpg",
     name: "Laura Jones",
-    text: `"The course program also included activities to socialize with other students. It was great to spend time with people from other countries and cultures. I will never forget this experience"`,
+    text: `"The course program also included activities to socialize with other students. It was great to spend time with people from other countries and cultures. I will never forget this experience."`,
   },
 ];

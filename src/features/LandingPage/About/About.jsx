@@ -13,8 +13,7 @@ function About() {
           <p className="about-text --margin-bottom-sm">
             The Cocktail Institute is a Costa Rican bartending school which
             offers courses of basic and advanced bartending skills, mixology,
-            flair, knowledge of coffee, wine and beers. Have any concerns about
-            the courses? Follow these simple steps:
+            flair, knowledge of coffee, wine and beers.
           </p>
 
           <p className="about-text">

@@ -222,7 +222,7 @@ body {
   text-align: center;
   letter-spacing: 1px;
   font-weight: 700;
-  color: #006d77;
+  color: #004c53;
 }
 
 .container-logos {
@@ -523,6 +523,72 @@ body {
   font-weight: 700;
 }
 
+/**************************/
+/*CTA SECTION */
+/**************************/
+.section-cta {
+  color: #004c53;
+  padding: 8rem 0;
+}
+
+.cta-container {
+  display: grid;
+  grid-template-columns: 1.7fr 1.5fr;
+  align-items: stretch;
+}
+
+.cta-img {
+  width: 100%;
+}
+
+.cta-main {
+  background-color: #e6f0f1;
+  padding: 3.2rem;
+}
+
+.cta-heading {
+  font-size: 3.6rem;
+  font-weight: 700;
+  margin-bottom: 3.2rem;
+  text-align: center;
+}
+
+.cta-text {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2;
+  margin-bottom: 3.2rem;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  align-items: center;
+  margin-bottom: 3.2rem;
+}
+
+.form-label {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.form-input {
+  font-size: 1.4rem;
+  font-weight: 500;
+  width: 100%;
+  border: none;
+  padding: 1.2rem;
+  border-radius: 10rem;
+}
+
+.cta-description {
+  resize: none;
+  height: 8rem;
+}
+
+.cta-btn-box {
+  text-align: center;
+}
 .card- .--flex {
   display: flex;
   flex-direction: column;
