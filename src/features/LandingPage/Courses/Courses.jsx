@@ -3,8 +3,9 @@ import { coursesDetails } from "./coursesDetails";
 
 function Courses() {
   return (
-    <section className="section-courses">
+    <section id="courses" className="section-courses">
       <div className="container --flex">
+        <h2 className="heading-secondary courses-heading">Bartender courses</h2>
         {coursesDetails.map((course, index) => (
           <CourseItem
             key={index}

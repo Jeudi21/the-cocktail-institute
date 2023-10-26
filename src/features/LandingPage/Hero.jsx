@@ -13,10 +13,12 @@ function Hero() {
               world.
             </p>
 
-            <a className="btn btn--primary --margin-right-sm">
+            <a href="#cta" className="btn btn--primary --margin-right-sm">
               Start your journey
             </a>
-            <a className="btn">Learn More</a>
+            <a href="#about" className="btn">
+              Learn More
+            </a>
           </div>
 
           <img

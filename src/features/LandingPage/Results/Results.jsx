@@ -3,7 +3,7 @@ import { cardDetails } from "./cardDetails";
 
 function Results() {
   return (
-    <section className="section-results">
+    <section id="results" className="section-results">
       <div className="container">
         <h2 className="heading-secondary">
           This is what you have been looking for

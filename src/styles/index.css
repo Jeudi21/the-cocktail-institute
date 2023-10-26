@@ -65,6 +65,7 @@ Medium:
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -172,6 +173,7 @@ body {
 .btn:link,
 .btn:visited {
   font-size: 2rem;
+  text-decoration: none;
   border: none;
   padding: 1.6rem 3.2rem;
   border-radius: 100px;
@@ -297,7 +299,7 @@ body {
   font-size: 5.2rem;
   font-weight: 700;
   line-height: 1.2;
-  margin-bottom: 4.8rem;
+  margin-bottom: 9.6rem;
 }
 
 .about-text {
@@ -364,6 +366,11 @@ body {
   grid-template-columns: 1fr 1fr;
   column-gap: 4.8rem;
   align-items: center;
+  margin-bottom: 12.8rem;
+}
+
+.courses-heading {
+  text-align: center;
 }
 
 .course-img-box {
@@ -449,7 +456,7 @@ body {
 .cards-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 3.2rem;
+  gap: 9.6rem;
 }
 
 .card {
@@ -494,7 +501,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 9.6rem;
-  row-gap: 3.2rem;
+  row-gap: 9.6rem;
 }
 
 .testimonial-card {

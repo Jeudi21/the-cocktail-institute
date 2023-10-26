@@ -14,16 +14,16 @@ function Header() {
         </a>
       </div>
       <nav className="navigation-hero">
-        <a className="menu-link" href="#">
+        <a className="menu-link" href="#about">
           About
         </a>
-        <a className="menu-link" href="#">
+        <a className="menu-link" href="#courses">
           Courses
         </a>
-        <a className="menu-link" href="#">
+        <a className="menu-link" href="#results">
           Results
         </a>
-        <a className="menu-link" href="#">
+        <a className="menu-link" href="#testimonials">
           Testimonials
         </a>
         <NavLink className="menu-link" to="recipes">
@@ -32,7 +32,7 @@ function Header() {
         <NavLink className="menu-link" to="store">
           Store
         </NavLink>
-        <a className="menu-link btn btn--primary" href="#">
+        <a className="menu-link btn btn--primary" href="#cta">
           Sign up
         </a>
       </nav>

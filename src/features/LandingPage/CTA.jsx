@@ -4,7 +4,7 @@ function Cta() {
     alert("Submitted");
   }
   return (
-    <section className="section-cta">
+    <section id="cta" className="section-cta">
       <div className="container">
         <div className="cta-container">
           <img

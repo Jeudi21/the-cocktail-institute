@@ -3,7 +3,7 @@ import { testimonialDetails } from "./testimonialDetails";
 
 function Testimonials() {
   return (
-    <section className="section-testimonials">
+    <section id="testimonials" className="section-testimonials">
       <div className="container">
         <h2 className="heading-secondary testimonial-header">
           What people say
