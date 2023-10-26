@@ -16,9 +16,10 @@ function About() {
             flair, knowledge of coffee, wine and beers.
           </p>
 
-          <p className="about-text">
-            Have any concerns about the courses? Follow these simple steps:
-          </p>
+          <h3 className="heading-terciary">
+            Have any concerns about the courses? Follow these simple steps
+            below!
+          </h3>
         </div>
         <div className="steps-container">
           {stepDetails.map((step) => (

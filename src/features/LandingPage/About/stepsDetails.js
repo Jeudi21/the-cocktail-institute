@@ -15,7 +15,7 @@ export const stepDetails = [
   {
     id: 3,
     icon: "img/icons/backpack.svg",
-    text: "Start your journey!",
+    text: "Once all your doubts are resolved, the only thing left is to get ready your attitude and start your journey!",
     color: "green",
   },
 ];
