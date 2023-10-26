@@ -1,0 +1,218 @@
+/**************************/
+/*BELOW 1312px (Smaller desktops) */
+/**************************/
+
+@media (max-width: 82rem) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+/**************************/
+/*BELOW 1152px (Landscape Tablets) */
+/**************************/
+@media (max-width: 72rem) {
+  html {
+    font-size: 50%;
+  }
+
+  .section-hero,
+  .section-about,
+  .section-courses,
+  .section-results,
+  .section-testimonials,
+  .section-cta {
+    padding: 6.4rem;
+  }
+
+  .header-hero {
+    padding-top: 6.4rem;
+  }
+  .header-hero {
+    font-size: 1.8rem;
+  }
+
+  .main-hero {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-content {
+    margin-bottom: 6.4rem;
+  }
+
+  .hero-img {
+    width: 30%;
+  }
+}
+
+/**************************/
+/*BELOW 992px (Tablets) */
+/**************************/
+@media (max-width: 62rem) {
+  .navigation-hero {
+    display: none;
+  }
+  .btn-mobile {
+    display: inline-block;
+    justify-self: end;
+  }
+
+  .partnered-with-img {
+    width: 14rem;
+  }
+
+  .heading-secondary {
+    text-align: center;
+    font-size: 4.4rem;
+  }
+
+  .heading-terciary {
+    font-size: 2.4rem;
+  }
+
+  .step-card {
+    font-size: 2rem;
+  }
+  .steps-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+  }
+
+  .cards-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 75%;
+  }
+
+  .testimonial-text {
+    font-size: 1.6rem;
+  }
+
+  .cta-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-footer {
+    padding: 8rem;
+  }
+}
+
+/**************************/
+/* BELOW 704px (Smaller tablets) */
+/**************************/
+
+@media (max-width: 44rem) {
+  .heading-primary {
+    font-size: 5.2rem;
+  }
+
+  .hero-text {
+    font-size: 2rem;
+  }
+
+  .hero-img {
+    width: 50%;
+  }
+
+  .testimonials-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .testimonial-text {
+    font-size: 2rem;
+  }
+
+  .footer-container {
+    grid-template-columns: 1fr 1fr;
+    justify-items: start;
+    gap: 9.6rem;
+    margin-bottom: 6.4rem;
+  }
+}
+
+/**************************/
+/* BELOW 544px (Phones) */
+/**************************/
+
+@media (max-width: 34rem) {
+  .school-name {
+    font-size: 1.6rem;
+  }
+
+  .heading-primary {
+    font-size: 3.6rem;
+  }
+
+  .hero-btn-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+  }
+  .--margin-right-sm {
+    margin: 0;
+  }
+  .hero-img {
+    width: 60%;
+  }
+  .heading-secondary {
+    font-size: 2.4rem;
+    margin-bottom: 4.8rem;
+  }
+
+  .about-text {
+    font-size: 1.8rem;
+  }
+
+  .partnered-with-img {
+    width: 12rem;
+  }
+
+  .course-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    align-items: start;
+    row-gap: 4.8rem;
+    margin-bottom: 6.4rem;
+  }
+
+  .--even {
+    grid-row: 1;
+  }
+
+  .--flex {
+    gap: 3.2rem;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .cta-heading {
+    font-size: 2.4rem;
+  }
+
+  .cta-text {
+    font-size: 1.6rem;
+  }
+
+  .form-row {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+  }
+}

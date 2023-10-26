@@ -3,7 +3,7 @@ function Hero() {
     <section className="section-hero">
       <div className="container">
         <div className="main-hero">
-          <div>
+          <div className="hero-content">
             <h1 className="heading-primary">
               We help you get your desired job or just impress your friends
             </h1>
@@ -12,20 +12,23 @@ function Hero() {
               certificate is outstanding in many distinguished bars around the
               world.
             </p>
-
-            <a href="#cta" className="btn btn--primary --margin-right-sm">
-              Start your journey
-            </a>
-            <a href="#about" className="btn">
-              Learn More
-            </a>
+            <div className="hero-btn-box">
+              <a href="#cta" className="btn btn--primary --margin-right-sm">
+                Start your journey
+              </a>
+              <a href="#about" className="btn">
+                Learn More
+              </a>
+            </div>
           </div>
 
-          <img
-            className="hero-img"
-            src="/img/hero.jpg"
-            alt="Bartender shaking a cocktail"
-          />
+          <div>
+            <img
+              className="hero-img"
+              src="/img/hero.jpg"
+              alt="Bartender shaking a cocktail"
+            />
+          </div>
         </div>
       </div>
     </section>

@@ -27,7 +27,7 @@ function CourseItem({ course, order }) {
             </div>
           ) : null}
         </div>
-        <div className="course-details">
+        <div className="course-details --even">
           <h2 className="course-title">{title}</h2>
           <p className="course-text">{text}</p>
         </div>

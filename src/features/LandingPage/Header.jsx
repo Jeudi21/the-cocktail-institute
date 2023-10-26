@@ -36,6 +36,7 @@ function Header() {
           Sign up
         </a>
       </nav>
+      <button className="btn-mobile">TEST</button>
     </header>
   );
 }
