@@ -589,10 +589,70 @@ body {
 .cta-btn-box {
   text-align: center;
 }
+
+.cta-btn {
+  font-family: inherit;
+}
+
 .card- .--flex {
   display: flex;
   flex-direction: column;
   gap: 8rem;
+}
+
+/**************************/
+/*FOOTER SECTION */
+/**************************/
+
+.section-footer {
+  padding: 8rem 0 8rem 8rem;
+  background-color: #faf2ec;
+  color: #004c53;
+  box-shadow: inset 0 -4rem 0 #004c53;
+}
+
+.footer-container {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3.2rem;
+}
+
+.footer-column {
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.footer-heading {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.footer-address,
+.copyright {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.footer-link,
+.footer-link:link,
+.footer-link:visited {
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-decoration: none;
+  color: inherit;
+}
+
+.social-container {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+}
+
+.footer-icon {
+  fill: #004c53;
 }
 
 .--margin-right-sm {

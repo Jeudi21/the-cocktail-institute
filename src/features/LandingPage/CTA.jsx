@@ -1,4 +1,4 @@
-function CTA() {
+function Cta() {
   function handleSubmit(e) {
     e.preventDefault();
     alert("Submitted");
@@ -70,4 +70,4 @@ function CTA() {
   );
 }
 
-export default CTA;
+export default Cta;
