@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import LandingPage from "./pages/LandingPage";
-import Recipes from "./pages/recipes";
-import Store from "./pages/store";
+import Recipes from "./pages/Recipes";
+import Store from "./pages/Store";
 import PageNotFound from "./pages/PageNotFound";
 
 function App() {
