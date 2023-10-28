@@ -87,6 +87,7 @@ body {
   background-color: #e6f0f1;
   background-size: cover;
   height: 100vh;
+  min-height: 95rem;
 }
 
 .container {
