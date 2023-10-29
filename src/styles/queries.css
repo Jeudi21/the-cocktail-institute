@@ -15,6 +15,9 @@
   html {
     font-size: 50%;
   }
+  .hero-img-box {
+    text-align: center;
+  }
 
   .section-hero,
   .section-about,
@@ -54,9 +57,31 @@
   .navigation-hero {
     display: none;
   }
+  .modal {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 3.6rem;
+    gap: 4.8rem;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #e6f0f1cb;
+  }
+
+  .modal a[class~="btn--primary"],
+  .modal a[class~="btn--primary"]:link,
+  .modal a[class~="btn--primary"]:visited {
+    font-size: 3rem;
+    padding: 1.6rem 3.2rem;
+  }
+
   .btn-mobile {
     display: inline-block;
     justify-self: end;
+    z-index: 999;
   }
 
   .partnered-with-img {
