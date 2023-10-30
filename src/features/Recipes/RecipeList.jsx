@@ -13,6 +13,7 @@ function RecipeList({ search }) {
               key={recipe.idDrink}
               title={recipe.strDrink}
               img={recipe.strDrinkThumb}
+              id={recipe.idDrink}
             />
           ))}
     </div>

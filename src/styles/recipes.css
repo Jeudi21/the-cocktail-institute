@@ -1,7 +1,11 @@
+/**************************/
+/*RECIPES */
+/**************************/
+
 .header-recipes {
   font-size: 2rem;
   padding: 3.2rem;
-  background-color: #e6f0f1;
+  background-color: #004c53;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
@@ -16,6 +20,17 @@
 
   gap: 4.8rem;
 }
+.recipes-school-name {
+  color: #99c5c9;
+}
+
+.recipes-menu-link:link,
+.recipes-menu-link:visited {
+  text-decoration: none;
+  font-weight: 500;
+  color: #99c5c9;
+  transition: all 0.3s;
+}
 
 .recipes-search {
   font-family: inherit;
@@ -26,11 +41,14 @@
   width: 100%;
   padding: 1.6rem;
   color: #004c53;
+  background-color: #99c5c9;
 }
 
-.recipes-main {
+.recipes-main,
+.recipe-details {
   background-color: #faf2ec;
   padding: 9.6rem;
+  min-height: 100vh;
 }
 
 .recipes-list {
@@ -49,7 +67,11 @@
   padding: 2.4rem;
   overflow: hidden;
   border-radius: 10%;
-  box-shadow: 0px 2.4rem 4.8rem #00000013;
+  box-shadow: 0px 2.4rem 4.8rem #0000001c;
+}
+
+.recipe-item-link {
+  text-decoration: none;
 }
 
 .recipe-item-img {
@@ -57,5 +79,61 @@
 }
 .recipe-item-title {
   font-size: 2rem;
-  color: #cd7d44;
+  color: #7b4b29;
+}
+
+/**************************/
+/*RECIPE DETAILS */
+/**************************/
+
+.recipe-details-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3.2rem;
+}
+
+.recipe-details-img {
+  width: 40rem;
+  justify-self: center;
+  align-items: center;
+}
+
+.recipe-title-box {
+  text-align: center;
+}
+
+.recipe-details-title {
+  display: block;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #905830;
+  margin-bottom: 6.4rem;
+}
+
+.recipe-details-ingredients,
+.recipe-details-glassware,
+.glassware-type,
+.recipe-details-steps,
+.recipe-procedure {
+  color: #905830;
+  font-size: 1.8rem;
+}
+
+.recipe-details-ingredients {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  list-style: none;
+  margin-bottom: 4.8rem;
+}
+.glassware-box {
+  margin-bottom: 4.8rem;
+}
+
+.recipe-details-steps {
+  line-height: 1.5;
+}
+
+.heading {
+  font-weight: 700;
 }
