@@ -6,11 +6,6 @@ function Header() {
   return (
     <header className="header-hero">
       <div className="logo-container">
-        {/* <img
-            className="logo"
-            src="img/logos/school-logo.svg"
-            alt="Logo of the bartending school"
-          /> */}
         <a href="#" className="school-name">
           The Cocktail Institute
         </a>

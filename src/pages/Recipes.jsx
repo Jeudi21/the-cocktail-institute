@@ -1,7 +1,7 @@
 import { useState } from "react";
-import RecipesHeader from "../features/Recipes/RecipesHeader";
 import RecipesMain from "../features/Recipes/RecipesMain";
 import useDebounce from "../hooks/useDebounce";
+import RecipesHeader from "../features/Recipes/RecipesHeader";
 
 function Recipes() {
   const [search, setSearch] = useState("");

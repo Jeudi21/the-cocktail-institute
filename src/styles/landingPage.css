@@ -105,15 +105,6 @@ body {
   justify-items: center;
 }
 
-/* .logo-container {
-  font-weight: 700;
-  color: #004c53;
-  letter-spacing: 1.5px;
-  display: flex;
-  align-items: center;
-  gap: 1.2rem;
-} */
-
 .school-name,
 .recipes-school-name {
   font-size: 2rem;

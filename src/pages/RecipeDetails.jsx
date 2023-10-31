@@ -1,10 +1,10 @@
+import RecipeDetailsHeader from "../features/Recipes/RecipeDetailsHeader";
 import RecipeDetailsItem from "../features/Recipes/RecipeDetailsItem";
-import RecipesHeader from "../features/Recipes/RecipesHeader";
 
 function RecipeDetails() {
   return (
     <div>
-      <RecipesHeader />
+      <RecipeDetailsHeader />
       <RecipeDetailsItem />
     </div>
   );

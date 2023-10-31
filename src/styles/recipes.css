@@ -20,6 +20,10 @@
 
   gap: 4.8rem;
 }
+
+.navigation-recipes-details {
+  grid-column: 3/-1;
+}
 .recipes-school-name {
   color: #99c5c9;
 }
@@ -96,6 +100,7 @@
   width: 40rem;
   justify-self: center;
   align-items: center;
+  border-radius: 5rem;
 }
 
 .recipe-title-box {
@@ -134,6 +139,53 @@
   line-height: 1.5;
 }
 
+.recipe-details-button {
+  font-size: 2rem;
+  border: none;
+  justify-self: center;
+  background-color: #cd7d44;
+  padding: 1.6rem 3.2rem;
+  border-radius: 100px;
+  color: #f0d8c7;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.recipe-details-button:hover {
+  background-color: #b9713d;
+  outline: 5px solid #dca47c;
+  color: #fff;
+}
+
+.error-message {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #905830;
+}
+
 .heading {
   font-weight: 700;
+}
+
+@keyframes loading {
+  0% {
+    transform: translate3d(-50%, -50%, 0) rotate(0deg);
+  }
+
+  100% {
+    transform: translate3d(-50%, -50%, 0) rotate(360deg);
+  }
+}
+
+.spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 10rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: 1rem solid #004c53;
+  border-bottom-color: #99c5c9;
+  transform: translate3d(-50%, -50%, 0);
+  animation: 1.5s linear infinite loading;
 }
