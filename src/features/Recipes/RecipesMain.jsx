@@ -1,9 +1,9 @@
 import RecipeList from "./RecipeList";
 
-function RecipesMain({ search }) {
+function RecipesMain() {
   return (
     <div className="recipes-main ">
-      <RecipeList search={search} />
+      <RecipeList />
     </div>
   );
 }

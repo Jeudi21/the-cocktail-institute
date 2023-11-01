@@ -1,10 +1,14 @@
 import ErrorMessage from "../../../ui/ErrorMessage";
 import Spinner from "../../../ui/Spinner";
 import RecipeItem from "./RecipeItem";
+import { useSelector } from "react-redux";
+import useDebounce from "../../hooks/useDebounce";
 import { useRecipes } from "./useRecipes";
 
-function RecipeList({ search }) {
-  const { isLoading, data: recipes } = useRecipes(search);
+function RecipeList() {
+  const search = useSelector((state) => state.recipes.search);
+  const debouncedSearch = useDebounce(search, 500);
+  const { isLoading, data: recipes } = useRecipes(debouncedSearch);
 
   if (!recipes && !isLoading)
     return (

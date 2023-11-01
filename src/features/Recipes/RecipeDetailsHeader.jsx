@@ -14,7 +14,7 @@ function RecipeDetailsHeader() {
           Home
         </NavLink>
 
-        <NavLink className="recipes-menu-link" to="recipes">
+        <NavLink className="recipes-menu-link" to="/recipes">
           Recipes
         </NavLink>
 
