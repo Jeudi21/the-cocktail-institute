@@ -133,6 +133,10 @@
   .recipes-list {
     grid-template-columns: repeat(3, 1fr);
   }
+
+  .recipe-details-img {
+    width: 100%;
+  }
 }
 
 /**************************/
@@ -169,6 +173,14 @@
   }
   .recipes-list {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .recipe-details-box {
+    grid-template-columns: 1fr;
+    row-gap: 4.8rem;
+  }
+
+  .recipe-details-img {
+    width: 50%;
   }
 }
 
@@ -261,5 +273,9 @@
   }
   .recipes-list {
     grid-template-columns: 1fr;
+  }
+
+  .recipe-details-img {
+    width: 80%;
   }
 }
