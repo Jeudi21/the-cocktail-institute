@@ -1,10 +1,16 @@
 import RecipesMain from "../features/Recipes/RecipesMain";
-import RecipesHeader from "../features/Recipes/RecipesHeader";
+import Header from "../../ui/Header";
 
 function Recipes() {
   return (
     <div>
-      <RecipesHeader />
+      <Header>
+        <Header.ContainerRecipes>
+          <Header.SchoolNameRecipes />
+          <Header.SearchBar />
+          <Header.NavRecipes />
+        </Header.ContainerRecipes>
+      </Header>
       <RecipesMain />
     </div>
   );
