@@ -1,8 +1,31 @@
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
+import toast from "react-hot-toast";
+
 function Cta() {
   function handleSubmit(e) {
     e.preventDefault();
-    alert("Submitted");
+
+    emailjs
+      .sendForm(
+        "cta_service",
+        "contact_form",
+        formEl.current,
+        import.meta.env.VITE_API_KEY
+      )
+      .then(
+        function () {
+          toast.success("Information sent succesfully");
+        },
+        function (error) {
+          toast.error("There was an error and information couldn't be sent");
+          console.log(error);
+        }
+      );
   }
+
+  const formEl = useRef(null);
+
   return (
     <section id="cta" className="section-cta">
       <div className="container">
@@ -22,12 +45,13 @@ function Cta() {
               time meeting people from all countries and cultures around the
               world
             </p>
-            <form className="cta-form" onSubmit={handleSubmit}>
+            <form className="cta-form" onSubmit={handleSubmit} ref={formEl}>
               <div className="form-row">
                 <label className="form-label" htmlFor="full-name">
                   Full Name
                 </label>
                 <input
+                  name="user_name"
                   className="form-input"
                   id="full-name"
                   type="text"
@@ -39,6 +63,7 @@ function Cta() {
                   Email
                 </label>
                 <input
+                  name="user_email"
                   className="form-input"
                   id="email"
                   type="text"
@@ -51,6 +76,7 @@ function Cta() {
                   Description
                 </label>
                 <textarea
+                  name="message"
                   className="form-input cta-description"
                   id="description"
                   type="text"
