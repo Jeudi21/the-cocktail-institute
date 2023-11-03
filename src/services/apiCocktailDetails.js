@@ -1,8 +1,7 @@
-export async function getCocktailDetails(id) {
-  const API_URL = "http://www.thecocktaildb.com/api/json/v1/1/lookup.php?i=";
-  const CORS_API_URL = "https://cors-anywhere.herokuapp.com/";
+import { COCKTAIL_DETAILS_API_URL, CORS_PROXY_URL } from "../constants";
 
-  const res = await fetch(CORS_API_URL + API_URL + id);
+export async function getCocktailDetails(id) {
+  const res = await fetch(CORS_PROXY_URL + COCKTAIL_DETAILS_API_URL + id);
 
   const data = await res.json();
 
