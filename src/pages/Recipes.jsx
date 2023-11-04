@@ -3,7 +3,7 @@ import Header from "../../ui/Header";
 
 function Recipes() {
   return (
-    <div>
+    <>
       <Header>
         <Header.ContainerRecipes>
           <Header.SchoolNameRecipes />
@@ -12,7 +12,7 @@ function Recipes() {
         </Header.ContainerRecipes>
       </Header>
       <RecipesMain />
-    </div>
+    </>
   );
 }
 

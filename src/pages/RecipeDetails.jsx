@@ -3,7 +3,7 @@ import RecipeDetailsItem from "../features/Recipes/RecipeDetailsItem";
 
 function RecipeDetails() {
   return (
-    <div>
+    <>
       <Header>
         <Header.ContainerRecipes>
           <Header.SchoolNameRecipes />
@@ -11,7 +11,7 @@ function RecipeDetails() {
         </Header.ContainerRecipes>
       </Header>
       <RecipeDetailsItem />
-    </div>
+    </>
   );
 }
 

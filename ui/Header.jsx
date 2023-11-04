@@ -104,6 +104,22 @@ function NavRecipeDetails() {
   );
 }
 
+function NavStore() {
+  return (
+    <nav className="navigation-recipes navigation-recipes-details">
+      <NavLink className="recipes-menu-link" to="/">
+        Home
+      </NavLink>
+
+      <NavLink className="recipes-menu-link" to="/recipes">
+        Recipes
+      </NavLink>
+
+      {/* <span className="cart">Cart (0)</span> */}
+    </nav>
+  );
+}
+
 function SearchBar() {
   const search = useSelector((store) => store.recipes.search);
   const dispatch = useDispatch();
@@ -157,6 +173,7 @@ Header.SchoolNameLanding = SchoolNameLanding;
 Header.SchoolNameRecipes = SchoolNameRecipes;
 Header.NavLanding = NavLanding;
 Header.NavRecipes = NavRecipes;
+Header.NavStore = NavStore;
 Header.NavRecipeDetails = NavRecipeDetails;
 Header.SearchBar = SearchBar;
 Header.Modal = Modal;

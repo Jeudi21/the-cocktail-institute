@@ -1,10 +1,10 @@
 import { configureStore } from "@reduxjs/toolkit";
 import recipesSlice from "./features/Recipes/recipesSlice";
 
-const store = configureStore({
+const reduxStore = configureStore({
   reducer: {
     recipes: recipesSlice,
   },
 });
 
-export default store;
+export default reduxStore;

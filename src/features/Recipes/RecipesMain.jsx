@@ -2,9 +2,9 @@ import RecipeList from "./RecipeList";
 
 function RecipesMain() {
   return (
-    <div className="recipes-main ">
+    <main className="recipes-main ">
       <RecipeList />
-    </div>
+    </main>
   );
 }
 

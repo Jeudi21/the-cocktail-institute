@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 const currentYear = new Date().getFullYear();
 
 function Footer() {
@@ -33,9 +35,10 @@ function Footer() {
           <a href="#" className="footer-link">
             Help & Support
           </a>
-          <a href="#" className="footer-link">
+          <NavLink className="footer-link" to="/recipes">
             Recipes directory
-          </a>
+          </NavLink>
+
           <a href="#" className="footer-link">
             Privacy & terms
           </a>
