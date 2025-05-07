@@ -1,5 +1,5 @@
 export const COCKTAILS_API_URL =
-  "http://www.thecocktaildb.com/api/json/v1/1/search.php?s=";
+  "http://www.thecocktaildb.com/api/json/v1/1/search.php?s=_";
 
 export const COCKTAIL_DETAILS_API_URL =
   "http://www.thecocktaildb.com/api/json/v1/1/lookup.php?i=";
